@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Dealerships</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      background-color: #f5f8fa;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-header {
+      text-align: center;
+      padding: 35px 15px;
+      background: #e8f8f8;
+      margin-bottom: 30px;
+    }
+
+    .contact-container {
+      max-width: 1050px;
+      margin: 35px auto;
+    }
+
+    .contact-image {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .contact-card {
+      padding: 25px;
+      height: 100%;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .contact-card h4 {
+      color: #087e8b;
+      margin-bottom: 18px;
+    }
+
+    .contact-card p {
+      line-height: 1.8;
+    }
+
+    a.contact-link {
+      color: #087e8b;
+      text-decoration: none;
+    }
+
+    a.contact-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light"
+     style="background-color:darkturquoise; min-height:1in;">
+  <div class="container-fluid">
+    <h2 style="padding-right:5%;">Dealerships</h2>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarText">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" style="font-size:larger;" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="font-size:larger;" href="/about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" style="font-size:larger;"
+             aria-current="page" href="/contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container contact-container">
+
+  <section class="contact-header">
+    <h1>Contact Us</h1>
+    <p class="lead">
+      We are here to help you with your dealership and vehicle enquiries.
+      Get in touch with our customer support team.
+    </p>
+  </section>
+
+  <div class="row g-4 align-items-center">
+
+    <div class="col-md-6">
+      <img src="/static/contactus.png"
+           class="contact-image"
+           alt="Customer support and dealership contact">
+    </div>
+
+    <div class="col-md-6">
+      <div class="card contact-card">
+        <h4>Customer Support</h4>
+
+        <p>
+          <strong>Company:</strong> Dealerships Customer Support
+        </p>
+
+        <p>
+          <strong>Office Address:</strong><br>
+          100 Example Avenue,<br>
+          Chicago, IL 60601, USA
+        </p>
+
+        <p>
+          <strong>Phone:</strong><br>
+          <a class="contact-link" href="tel:+18005550147">
+            +1 (800) 555-0147
+          </a>
+        </p>
+
+        <p>
+          <strong>Email:</strong><br>
+          <a class="contact-link"
+             href="mailto:support@dealerships.example">
+            support@dealerships.example
+          </a>
+        </p>
+
+        <p>
+          <strong>Sales Enquiries:</strong><br>
+          <a class="contact-link"
+             href="mailto:sales@dealerships.example">
+            sales@dealerships.example
+          </a>
+        </p>
+
+        <p>
+          <strong>Business Hours:</strong><br>
+          Monday – Friday: 9:00 AM – 6:00 PM<br>
+          Saturday: 10:00 AM – 4:00 PM<br>
+          Sunday: Closed
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+</body>
+</html>
